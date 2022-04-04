@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.allPosts {
+    padding: 3rem;
+    width: 75%;
+    height: fit-content;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    align-content: center;
+    box-shadow: 0px 0px 10px 1px;
+}
+
+.post {
+    width: 100%;
+    height: fit-content;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.viewComments {
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    color: rgb(45, 45, 255);
+    font-weight: 600;
+}
+
+.commentList {
+    background-color: whitesmoke;
+    width: 90%;
+    height: fit-content;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+
+
+
+/* <button onclick="generatePosts()"></button>  */
